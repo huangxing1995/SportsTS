@@ -1,0 +1,49 @@
+{
+	"name": "SportsTS",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"@types/react-native-scrollable-tab-view": "^0.7.6",
+		"@types/react-navigation": "^1.0.25",
+		"react": "16.0.0",
+		"react-eflow": "^1.2.11",
+		"react-native": "0.50.4",
+		"react-native-scrollable-tab-view": "^0.8.0",
+		"react-navigation": "^1.0.0-beta.21"
+	},
+	"devDependencies": {
+		"@types/jest": "^21.1.8",
+		"@types/react": "^16.0.25",
+		"@types/react-native": "^0.50.7",
+		"@types/react-test-renderer": "^16.0.0",
+		"babel-jest": "21.2.0",
+		"babel-preset-react-native": "4.0.0",
+		"jest": "21.2.1",
+		"react-test-renderer": "16.0.0",
+		"ts-jest": "^21.2.4",
+		"typescript": "^2.6.2"
+	},
+	"jest": {
+		"preset": "react-native",
+		"moduleFileExtensions": [
+			"ts",
+			"tsx",
+			"js"
+		],
+		"transform": {
+			"^.+\\.(js)$": "<rootDir>/node_modules/babel-jest",
+			"\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+		},
+		"testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+		"testPathIgnorePatterns": [
+			"\\.snap$",
+			"<rootDir>/node_modules/",
+			"<rootDir>/lib/"
+		],
+		"cacheDirectory": ".jest/cache"
+	}
+}

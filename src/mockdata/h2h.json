@@ -1,0 +1,97 @@
+{
+  "reason":"查询成功",
+  "result":{
+    "title":"NBA2016-2017赛季_勇士VS湖人赛程赛果",
+    "list":[
+      {
+        "time":"11\/30 11:30",
+        "m_time":"11-30 周四 11:30",
+        "player1":"勇士",
+        "player2":"湖人",
+        "player1logo":"http:\/\/p0.qhmsg.com\/t01dae3099bd6904c43.png?size=78x78",
+        "player2logo":"http:\/\/p5.qhmsg.com\/t018b634f8a252b4177.png?size=78x78",
+        "player1url":"http:\/\/kbs.sports.qq.com\/kbsweb\/teams.htm?tid=9",
+        "m_player1url":"http:\/\/sports.qq.com\/kbsweb\/kbsshare\/team.htm?cid=100000",
+        "player2url":"http:\/\/kbs.sports.qq.com\/kbsweb\/teams.htm?tid=13",
+        "m_player2url":"http:\/\/sports.qq.com\/kbsweb\/kbsshare\/team.htm?cid=100000",
+        "score":"VS",
+        "link1text":"视频直播",
+        "link1url":"http:\/\/sports.qq.com\/kbsweb\/game.htm?mid=100000:1470449",
+        "m_link1url":"http:\/\/sports.qq.com\/kbsweb\/kbsshare\/game.htm?mid=100000:1470449",
+        "link2text":"技术统计",
+        "link2url":"",
+        "m_link2url":"",
+        "status":"0"
+      },
+      {
+        "time":"12\/19 11:30",
+        "m_time":"12-19 周二 11:30",
+        "player1":"勇士",
+        "player2":"湖人",
+        "player1logo":"http:\/\/p0.qhmsg.com\/t01dae3099bd6904c43.png?size=78x78",
+        "player2logo":"http:\/\/p5.qhmsg.com\/t018b634f8a252b4177.png?size=78x78",
+        "player1url":"http:\/\/kbs.sports.qq.com\/kbsweb\/teams.htm?tid=9",
+        "m_player1url":"http:\/\/sports.qq.com\/kbsweb\/kbsshare\/team.htm?cid=100000",
+        "player2url":"http:\/\/kbs.sports.qq.com\/kbsweb\/teams.htm?tid=13",
+        "m_player2url":"http:\/\/sports.qq.com\/kbsweb\/kbsshare\/team.htm?cid=100000",
+        "score":"VS",
+        "link1text":"视频直播",
+        "link1url":"http:\/\/sports.qq.com\/kbsweb\/game.htm?mid=100000:1471239",
+        "m_link1url":"http:\/\/sports.qq.com\/kbsweb\/kbsshare\/game.htm?mid=100000:1471239",
+        "link2text":"技术统计",
+        "link2url":"",
+        "m_link2url":"",
+        "status":"0"
+      },
+      {
+        "time":"12\/23 11:30",
+        "m_time":"12-23 周六 11:30",
+        "player1":"湖人",
+        "player2":"勇士",
+        "player1logo":"http:\/\/p5.qhmsg.com\/t018b634f8a252b4177.png?size=78x78",
+        "player2logo":"http:\/\/p0.qhmsg.com\/t01dae3099bd6904c43.png?size=78x78",
+        "player1url":"http:\/\/kbs.sports.qq.com\/kbsweb\/teams.htm?tid=13",
+        "m_player1url":"http:\/\/sports.qq.com\/kbsweb\/kbsshare\/team.htm?cid=100000",
+        "player2url":"http:\/\/kbs.sports.qq.com\/kbsweb\/teams.htm?tid=9",
+        "m_player2url":"http:\/\/sports.qq.com\/kbsweb\/kbsshare\/team.htm?cid=100000",
+        "score":"VS",
+        "link1text":"视频直播",
+        "link1url":"http:\/\/sports.qq.com\/kbsweb\/game.htm?mid=100000:1470386",
+        "m_link1url":"http:\/\/sports.qq.com\/kbsweb\/kbsshare\/game.htm?mid=100000:1470386",
+        "link2text":"技术统计",
+        "link2url":"",
+        "m_link2url":"",
+        "status":"0"
+      },
+      {
+        "time":"03\/15 10:30",
+        "m_time":"03-15 周四 10:30",
+        "player1":"湖人",
+        "player2":"勇士",
+        "player1logo":"http:\/\/p5.qhmsg.com\/t018b634f8a252b4177.png?size=78x78",
+        "player2logo":"http:\/\/p0.qhmsg.com\/t01dae3099bd6904c43.png?size=78x78",
+        "player1url":"http:\/\/kbs.sports.qq.com\/kbsweb\/teams.htm?tid=13",
+        "m_player1url":"http:\/\/sports.qq.com\/kbsweb\/kbsshare\/team.htm?cid=100000",
+        "player2url":"http:\/\/kbs.sports.qq.com\/kbsweb\/teams.htm?tid=9",
+        "m_player2url":"http:\/\/sports.qq.com\/kbsweb\/kbsshare\/team.htm?cid=100000",
+        "score":"VS",
+        "link1text":"视频直播",
+        "link1url":"http:\/\/sports.qq.com\/kbsweb\/game.htm?mid=100000:1470823",
+        "m_link1url":"http:\/\/sports.qq.com\/kbsweb\/kbsshare\/game.htm?mid=100000:1470823",
+        "link2text":"技术统计",
+        "link2url":"",
+        "m_link2url":"",
+        "status":"0"
+      }
+    ],
+    "more1":{
+      "link":"",
+      "text":""
+    },
+    "more2":{
+      "link":"",
+      "text":""
+    }
+  },
+  "error_code":0
+}
