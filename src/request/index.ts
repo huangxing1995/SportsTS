@@ -1,6 +1,6 @@
-let data = require('../mockdata/data.json')
-let story = require('../mockdata/story.json')
-let detail = require('../mockdata/detail.json')
+let data = require('../../mockdata/data.json')
+let story = require('../../mockdata/story.json')
+let detail = require('../../mockdata/detail.json')
 
 export function fetchGamesList(url:string){
   return new Promise((resolve, reject) => {
