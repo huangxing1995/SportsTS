@@ -11,13 +11,13 @@
 		"@types/react-navigation": "^1.0.25",
 		"react": "16.0.0",
 		"react-eflow": "^1.2.11",
-		"react-native": "0.50.4",
+		"react-native": "^0.50.4",
 		"react-native-scrollable-tab-view": "^0.8.0",
 		"react-navigation": "^1.0.0-beta.21"
 	},
 	"devDependencies": {
 		"@types/jest": "^21.1.8",
-		"@types/react": "^16.0.25",
+		"@types/react": "^16.0.27",
 		"@types/react-native": "^0.50.7",
 		"@types/react-test-renderer": "^16.0.0",
 		"babel-jest": "21.2.0",

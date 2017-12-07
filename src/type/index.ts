@@ -1,34 +1,58 @@
 declare namespace NBA{
+  export interface NBADataOrigin{
+    reason:string;
+    result:GamesResult;
+    error_code:number;
+  }
+  export interface GamesResult{
+    title:string; // tv living platform
+    statuslist:object;
+    list:Array<GamesListOneDay>;
+    teammatch:TeamList
+  }
+  export interface GamesListOneDay{
+    title:string; // date
+    tr:Array<Game>;
+    bottomlink:Link;
+    live?:Array<Game>;
+    livelink?:Array<Link>
+  }
   export interface Game{
-    "time":string;
+    title?:string;
+    "time"?:string;
     "player1":string;
     "player2":string;
-    "player1logo":string;
-    "player2logo":string;
-    "player1logobig":string;
-    "player2logobig":string;
-    "player1url":string;
-    "player2url":string;
-    "link1url":string;
-    "m_link1url":string;
-    "link2text":string;
-    "link2url":string;
-    "m_link2url":string;
-    "status":number,
+    "player1info"?:string;
+    "player2info"?:string;
+    "player1logo"?:string;
+    "player2logo"?:string;
+    "player1logobig"?:string;
+    "player2logobig"?:string;
+    "player1url"?:string;
+    "player2url"?:string;
+    "player1location"?:string;
+    "player2location"?:string;
+    "link1text"?:string;
+    "link1url"?:string;
+    "link2text"?:string;
+    "link2url"?:string;
+    "m_link1url"?:string;
+    "m_link2url"?:string;
+    "status"?:number,
     "score":string
-    "link1text":string;
+    liveurl?:string;
+    [k:string]:any;
   }
-  export interface GamesList{
-    title:string; //time
-    tr:Game[];
-    [k:string]:any
-  }
-  export interface Team{
-    name:string;
+  export interface Link{
+    text:string;
     url:string;
   }
   export interface TeamList{
     teamsList: Team[]
+  }
+  export interface Team{
+    name:string;
+    url:string;
   }
 }
 declare namespace TodayOnHistory{
@@ -57,8 +81,6 @@ declare namespace TodayOnHistory{
     url:string;
   }
 }
-declare namespace Navigation{
 
-}
 
-export {NBA,Navigation,TodayOnHistory}
+export {NBA,TodayOnHistory}

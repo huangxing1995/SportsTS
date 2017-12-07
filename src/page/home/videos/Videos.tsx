@@ -5,8 +5,9 @@ import {
   Button,
   Image
 } from 'react-native'
-// import {TabBar,Header} from '../../../common/index'
+
 import {pxToDp} from '../../../util/index'
+
 
 
 export default class Videos extends React.Component<any,any>{

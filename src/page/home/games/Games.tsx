@@ -7,11 +7,14 @@ import {
   StyleSheet,
   TouchableOpacity
 } from 'react-native';
-import ScrollableTabView from 'react-native-scrollable-tab-view'
+// import * as ScrollableTabView from 'react-native-scrollable-tab-view'
+const ScrollableTabView = require('react-native-scrollable-tab-view');
+
 import Schedule from './Schedule'
 import MyFocus from './MyFocus'
 import {TabBar} from '../../../common/index'
 import {pxToDp} from '../../../util/index'
+import {} from 'react-navigation'
 export interface GamesProps{
   navigation:Navigation;
 }

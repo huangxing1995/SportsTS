@@ -15,8 +15,20 @@ export interface HistoryListProps{
 export interface HistoryListState{
   refreshing:boolean;
 }
+export interface ScrollToParam{
+  x:number;
+  y:number;
+  animated:boolean
+}
 export class HistoryList extends React.Component<HistoryListProps,HistoryListState>{
-  sv:any = null;
+  // sv:{
+  //   scrollTo({x,y,animated}:ScrollToParam):void
+  // };
+
+  refs:{
+    [key:string]:any
+  };
+
   constructor(props:HistoryListProps){
     super(props);
     this.state = {
@@ -27,8 +39,8 @@ export class HistoryList extends React.Component<HistoryListProps,HistoryListSta
 
   }
   handleBackToTop = () => {
-    this.sv && this.sv.crollTo({x:0,y:0,animated:true});
-    // this.refs && this.refs.sv.scrollTo({x:0,y:0,animated:true});
+    // this.sv && this.sv.scrollTo({x:0,y:0,animated:true});
+    this.refs && this.refs.sv.scrollTo({x:0,y:0,animated:true});
     console.log('press here')
   }
 

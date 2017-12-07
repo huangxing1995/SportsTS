@@ -14,7 +14,7 @@ import {NBA} from '../../../type'
 const SCREEN_WIDTH = Dimensions.get('window').width;
 
 export interface ScheduleProps{
-  gamesList:NBA.GamesList;
+  gamesList:NBA.GamesListOneDay[];
   teamsList:NBA.TeamList;
 }
 export interface ScheduleState{
@@ -68,7 +68,7 @@ export class Schedule extends React.Component<ScheduleProps,ScheduleState>{
   };
   render(){
     let {gamesList,teamsList} = this.props;
-    let content =gamesList && gamesList.map((item:NBA.GamesList, i:number) => {
+    let content =gamesList && gamesList.map((item:NBA.GamesListOneDay, i:number) => {
       this.title.push(item.title);
       return <MatchList
                 list={item.tr}
